@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>main</title>
+</head>
+<body>
+<h2>사용자 정보</h2>
+<div>
+  <p>사용자 이름: <span th:text="${member.username}"></span></p>
+  <p>실명: <span th:text="${member.realname}"></span></p>
+  <p><a href="/json">json데이터로 보기</a></p>
+</div>
+</body>
+</html>
